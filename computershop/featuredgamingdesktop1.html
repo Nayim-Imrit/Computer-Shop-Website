@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Catalyst: Computer Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="assets/home.css">
+  </head>
+  <body>
+    <nav>
+        <a href="home.html"><img class="logo" src="images/catalyst.png" /></a>
+      <ul>
+        <li><a href="#" aria-haspopup="true">Desktops</a>
+           <ul>
+            <li><a href="#">Certified Series</a>
+              <ul>
+                <li><a href="Rebel.html">Rebel 2</a></li>
+                <li><a href="noctics.html">Noctics</a></li>
+                <li><a href="pro.html">Pro Series</a></li>
+              </ul>
+          </ul>
+        </li>
+            <!--<ul>
+             <li><a href="#">Intel</a>
+               <ul>
+                 <li><a href="#">Z170</a></li>
+                 <li><a href="#">Z97</a></li>
+                 <li><a href="#">X99</a></li>
+               </ul>
+           </ul>
+          </li>
+          <ul>
+           <li><a href="#">Amd</a>
+             <ul>
+               <li><a href="#">APU</a></li>
+               <li><a href="#">FX</a></li>
+             </ul>
+         </ul>
+       </li>-->
+      </li>
+      <li><a href="#" aria-haspopup="true">Intel</a>
+        <ul>
+          <li><a href="intelz170.html">Intel Z170</a></li>
+          <li><a href="intelx99.html">Intel X99</a></li>
+        </ul>
+      </li>
+      <li><a href="#" aria-haspopup="true">AMD</a>
+        <ul>
+          <li><a href="amdapu.html">AMD APU</a></li>
+          <li><a href="#">AMD FX</a></li>
+        </ul>
+      </li>
+
+        <li><a href="#" aria-haspopup="true">Laptops</a>
+          <ul>
+            <li><a href="#">Asus Laptops</a></li>
+            <li><a href="#">MSI Laptops</a></li>
+            <li><a href="#">Catalyst Laptops</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#" aria-haspopup="true">Account</a>
+          <ul>
+            <li><a href="loginregister.php">My Account</a></li>
+            <li><a href="#">Order Status</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="picanddesc">
+      <div class="contentleft">
+        <img src="images/featuredgamingdesktop1pic.png" />
+        <h1>Catalyst-A</h1>
+      </div>
+      <div class="contentright">
+        <h3>Description</h3>
+        <br />
+        <p>&#8250; Case:: Raidmax Ninja II Gaming Case - Orange</p>
+        <p>&#8250; Processor ::Intel&reg; Core&trade; i5-6400 Processor (4x 2.70GHz/6MB L3 Cache)</p>
+        <p>&#8250; Memory:: 8GB [4 GB x2] DDR4-2400 Memory Module - Corsair</p>
+        <p>&#8250; Video Card:: NVIDIA GeForce GTX 1050 2GB GDDR5</p>
+        <p>&#8250; MotherboardASUS:: Z170-K</p>
+        <p>&#8250; Power Supply:: 350 Watt - Standard</p>
+        <p>&#8250; Primary Hard Drive:: 1 TB HARD DRIVE -- 32MB Cache, 7200RPM, 6.0Gb/s</p>
+        <p>&#8250; Optical Drive:: 24x Dual Layer</p>
+        <center>
+          <p>Rs 31,500<p/>
+        </center>
+        <!--paypal button-->
+        <form id="payment"target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <!-- Identify your business so that you can collect the payments. -->
+          <input type="hidden" name="business" value="#">
+
+          <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+          <input type="hidden" name="cmd" value="_cart">
+          <input type="hidden" name="add" value="1">
+
+          <!-- Specify details about the item that buyers will purchase. -->
+          <input type="hidden" name="item_name" value="laptop">
+          <input type="hidden" name="amount" value="47,000">
+          <input type="hidden" name="currency_code" value="RS">
+
+          <!-- Display the payment button. -->
+          <input type="image" name="submit"
+            src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png"
+            alt="Add to Cart">
+          <img alt="" width="1" height="1"
+            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+       </form>
+      </div>
+
+    </div>
+    <div id="bottom">
+      <ul>
+        <li class="one">Desktops:</li>
+        <ul class="first">
+          <li class="color">Certified Series</li>
+          <li><a href="Rebel.html">Rebel 2</a></li>
+          <li><a href="noctics.html">Noctics</a></li>
+          <li><a href="pro.html">Pro Series</a></li>
+        </ul>
+
+        <ul class="second">
+          <li class="two">Intel</li>
+          <li><a href="intelz170.html">Intel Z170</a></li>
+          <li><a href="intelx99.html">Intel x99</a></li>
+        </ul>
+
+        <ul class="third">
+          <li class="three">AMD</li>
+          <li><a href="amdapu.html">Amd APU</a></li>
+          <li><a href="#">Amd FX</a></li>
+        </ul>
+
+        <ul class="fourth">
+          <li class="four">Laptops</li>
+          <li><a href="#">Asus Laptops</a></li>
+          <li><a href="#">Msi Laptops</a></li>
+          <li><a href="#">Catalyst Laptops</a></li>
+        </ul>
+
+        <ul class="sixth">
+          <li class="six">Account</li>
+          <li><a href="loginregister.php">My Account</a></li>
+          <li><a href="#">Order Status</a></li>
+        </ul>
+    </ul>
+    </div>
+    <footer>
+
+        <p>
+          <a href="">Contact US</a>
+        </p>
+        <p>
+          <a href="">Privacy Policy</a>
+        </p>
+        <p>&copy; 2016-2018 Catalyst All Rights Reserved.</p>
+        <br />
+
+  </footer>
+
+  </body>
+</html>
